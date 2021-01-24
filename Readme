@@ -1,0 +1,8 @@
+This is an (incomplete) workflow manager.
+The user can create WorkFlows instances, which have all a certain number of Steps.
+Each Step is associated to a WorkFlow, and can be given a status (chosen by the user).
+They are ordered by their attribute "number".
+The user can link them to Objects (representations of files in Django : graphic charts, videos, pictures...) or Projects.
+
+Those classes and the associated methods can be found in manager/models.py and used in the Django shell (python manage.py shell).
+There, the user can create Workflows, Steps, and Objects, but not upload files yet.
